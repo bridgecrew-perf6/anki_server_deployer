@@ -635,7 +635,7 @@ impl<'a> App {
                 TextInput::new(
                     state_media,
                     "...",
-                    &format!("https://{}:27701", ipaddr),
+                    &format!("https://{}:27701/msync", ipaddr),
                     Message::SyncAddr,
                 )
                 .padding(10)
